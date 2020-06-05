@@ -25,7 +25,7 @@ FILECHANGEREL=`echo "$FILECHANGE" | sed 's_'$CURPATH'/__'`
 #VARS
 FILES=(gravity.db custom.list) #list of files you want to sync
 PIHOLEDIR=/etc/pihole #working dir of pihole
-PIHOLE2=192.168.1.3 #IP of 2nd PiHole
+PIHOLE2=172.16.10.4 #IP of 2nd PiHole
 HAUSER=root #user of second pihole
 
 #LOOP FOR FILE TRANSFER
