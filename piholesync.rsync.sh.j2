@@ -45,6 +45,8 @@ while read date time dir file; do
     fi
   done
 
+## updates to Local DNS Records do not require restart, but update to gravity.db does.
+
 #  if [ $RESTART == "1" ]; then
 #    # INSTALL FILES AND RESTART pihole
 #    ssh $HAUSER@$PIHOLE2 "sudo -S service pihole-FTL stop"
